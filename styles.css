@@ -1,0 +1,116 @@
+/* stylelint-disable max-empty-lines */
+
+
+/* stylelint-disable no-missing-end-of-source-newline */
+
+
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
+
+/* stylelint-disable indentation */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/image1.png");
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.nav-image {
+    width: 111px;
+    height: 74px;
+    right: 50px;
+    visibility: hidden;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #101010;
+}
+
+h1 {
+    position: absolute;
+    width: 220px;
+    height: 100px;
+    left: 16px;
+    top: 104px;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    color: #1a2236;
+}
+
+p {
+    position: absolute;
+    width: 288px;
+    height: 126px;
+    left: 16px;
+    top: 224px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #1a2236;
+}
+
+.button {
+    box-sizing: border-box;
+    width: 288px;
+    height: 50px;
+    left: 16px;
+    top: 390px;
+    display: inline-block;
+    background: #1a2236;
+    position: absolute;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    padding: 15px 32px;
+    margin: 4px 2px;
+}
+
+.section-image {
+    background-image: url("images/image_2.png");
+    background-color: hsl(0, 0%, 80%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 160px;
+}
+
+.headline {
+    position: absolute;
+}
+
+.section {
+    position: relative;
+}
