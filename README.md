@@ -93,10 +93,10 @@ Example command:
 
 ## 💻 Future Features <a name="getting-started"></a>
 
-> The future features are the content and footer section
+> The future features are the works and aout me section
 
-- [] **Content**
-- [] **Footer**
+- [] **Works**
+- [] **About Me**
 
 
 ## 🤝 Contributing
