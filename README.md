@@ -39,6 +39,14 @@
   </ul>
 </details>
 
+## 💻 Key Features <a name="getting-started"></a>
+
+> The key features are the header and headline section
+
+- **Header**
+- **Headline**
+
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > To run the project locally follow the steps below
@@ -82,6 +90,13 @@ Example command:
 - GitHub: [@githubhandle](https://github.com/Rudy-Menekam)
 - Twitter: [@twitterhandle](https://twitter.com/MenekamR)
 - LinkedIn: [linkedIn](https://www.linkedin.com/in/menekam-rudy/)
+
+## 💻 Future Features <a name="getting-started"></a>
+
+> The future features are the works and aout me section
+
+- [] **Works**
+- [] **About Me**
 
 
 ## 🤝 Contributing
