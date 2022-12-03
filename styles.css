@@ -1,188 +1,209 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-image: url("images/image1.png");
-  background-repeat: no-repeat;
+    background-image: url("images/image1.png");
+    background-repeat: no-repeat;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
 }
 
 .nav-image {
-  width: 111px;
-  height: 74px;
-  right: 50px;
-  visibility: hidden;
+    width: 111px;
+    height: 74px;
+    right: 50px;
+    visibility: hidden;
 }
 
 .hamburger {
-  display: block;
-  cursor: pointer;
+    display: block;
+    cursor: pointer;
 }
 
 .bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: #101010;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #101010;
 }
 
 h1 {
-  position: absolute;
-  width: 220px;
-  height: 100px;
-  left: 16px;
-  top: 104px;
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 100%;
-  color: #1a2236;
+    position: absolute;
+    width: 220px;
+    height: 100px;
+    left: 16px;
+    top: 104px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    color: #1a2236;
+}
+
+h2 {
+    position: absolute;
+    width: 220px;
+    height: 100px;
+    left: 16px;
+    top: 104px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    color: #1a2236;
 }
 
 p {
-  position: absolute;
-  width: 288px;
-  height: 126px;
-  left: 16px;
-  top: 224px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
-  letter-spacing: -0.01em;
-  color: #1a2236;
+    position: absolute;
+    width: 288px;
+    height: 126px;
+    left: 16px;
+    top: 224px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #1a2236;
 }
 
 .button {
-  box-sizing: border-box;
-  width: 450px;
-  height: 50px;
-  left: 16px;
-  top: 390px;
-  display: inline-block;
-  background: #1a2236;
-  position: absolute;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: hsl(0, 0%, 100%);
-  text-decoration: none;
-  padding: 15px 32px;
-  margin: 4px 2px;
+    box-sizing: border-box;
+    width: 450px;
+    height: 50px;
+    left: 16px;
+    top: 390px;
+    display: inline-block;
+    background: #1a2236;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    padding: 15px 32px;
+    margin: 4px 2px;
 }
 
 .section-image {
-  background-image: url("images/image_2.png");
-  background-color: rgb(255, 255, 255);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 250px;
+    background-image: url("images/image_2.png");
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
 }
 
 .section {
-  display: flex;
-  position: relative;
+    display: flex;
+    position: relative;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  height: 65vh;
-  position: relative;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 65vh;
+    position: relative;
 }
 
 .works {
-  display: flex;
-  position: relative;
-  flex-direction: column;
+    display: flex;
+    position: relative;
+    flex-direction: column;
 }
 
 .about {
-  display: flex;
-  position: relative;
+    display: flex;
+    position: relative;
 }
 
 .grid-container {
-  display: grid;
-  padding-top: 35%;
+    display: grid;
+    padding-top: 35%;
 }
 
 .btn {
-  color: #1a2236;
-  padding: 0.8rem;
-  font-size: 14px;
-  font-weight: 400;
-  display: inline;
-  width: 139px;
-  cursor: pointer;
-  background: #98dede;
-  margin-right: 10px;
+    color: #1a2236;
+    padding: 0.8rem;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline;
+    width: 139px;
+    cursor: pointer;
+    background: #98dede;
+    margin-right: 10px;
 }
 
 .card_btn {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  position: absolute;
-  width: 178px;
-  height: 44px;
-  cursor: pointer;
-  border: 1px solid #fff;
-  background: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    width: 178px;
+    height: 44px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    background: transparent;
 }
 
 .card_btn img {
-  vertical-align: -15%;
-  padding-left: 0.5em;
+    vertical-align: -15%;
+    padding-left: 0.5em;
 }
 
 .button img {
-  padding-left: 1em;
-  vertical-align: -15%;
+    padding-left: 1em;
+    vertical-align: -15%;
 }
 
 .span_button {
-  line-height: 8.5;
+    line-height: 8.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
 }
 
 .card_title {
-  color: #fff;
-  position: absolute;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 80%;
-  letter-spacing: 1px;
-  text-transform: capitalize;
+    color: #fff;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+    letter-spacing: 1px;
+    text-transform: capitalize;
 }
 
 .card_content {
-  padding: 1rem;
-  background: #1a2236;
-  height: 210px;
+    padding: 1rem;
+    background: #1a2236;
+    height: 210px;
 }
 
 .card_image {
-  height: auto;
-  width: 486px;
-  vertical-align: middle;
+    height: auto;
+    width: 486px;
+    vertical-align: middle;
 }
