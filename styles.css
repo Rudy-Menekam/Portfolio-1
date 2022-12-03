@@ -52,6 +52,20 @@ h1 {
   color: #1a2236;
 }
 
+h2 {
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  left: 16px;
+  top: 104px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
 p {
   position: absolute;
   width: 288px;
@@ -69,7 +83,7 @@ p {
 
 .button {
   box-sizing: border-box;
-  width: 288px;
+  width: 450px;
   height: 50px;
   left: 16px;
   top: 390px;
@@ -105,6 +119,92 @@ p {
   display: flex;
   flex-direction: column;
   width: auto;
-  height: 70vh;
+  height: 65vh;
   position: relative;
+}
+
+.works {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.about {
+  display: flex;
+  position: relative;
+}
+
+.grid-container {
+  display: grid;
+  padding-top: 35%;
+}
+
+.btn {
+  color: #1a2236;
+  padding: 0.8rem;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline;
+  width: 139px;
+  cursor: pointer;
+  background: #98dede;
+  margin-right: 10px;
+}
+
+.card_btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  width: 178px;
+  height: 44px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+.card_btn img {
+  vertical-align: -15%;
+  padding-left: 0.5em;
+}
+
+.button img {
+  padding-left: 1em;
+  vertical-align: -15%;
+}
+
+.span_button {
+  line-height: 8.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+.card_title {
+  color: #fff;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.card_content {
+  padding: 1rem;
+  background: #1a2236;
+  height: 210px;
+}
+
+.card_image {
+  height: auto;
+  width: 486px;
+  vertical-align: middle;
 }
