@@ -209,8 +209,6 @@ ul {
 }
 
 .skills_section {
-    float: left;
-    /* grid-gap: 16px; */
     padding: 1rem;
     padding-top: 100%;
     padding-bottom: 20%;
@@ -235,6 +233,13 @@ ul {
     font-weight: 800;
     font-size: 22px;
     line-height: 30px;
+}
+
+.language,
+.frameworks,
+.skills {
+    float: left;
+    margin-bottom: 20px;
 }
 
 .language {
@@ -280,6 +285,12 @@ ul {
     display: flex;
     flex-direction: column;
     line-height: 27px;
+}
+
+.skills_section::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .contact-page {
