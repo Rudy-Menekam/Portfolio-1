@@ -209,8 +209,8 @@ ul {
 }
 
 .skills_section {
-    float: left;
-    /* grid-gap: 16px; */
+    display: grid;
+    grid-gap: 16px;
     padding: 1rem;
     padding-top: 100%;
     padding-bottom: 20%;
@@ -286,7 +286,7 @@ ul {
     position: relative;
     flex-direction: column;
     width: 100%;
-    height: 950px;
+    height: 800px;
 }
 
 .contact-page h2 {
@@ -298,57 +298,6 @@ ul {
     background: #f9f9fa;
     display: flex;
     position: relative;
-}
-
-footer {
-    bottom: 0;
-    left: 0;
-    height: 150px;
-    position: fixed;
-    width: 100%;
-    background-color: #1a2236;
-    padding-top: 40px;
-}
-
-.footer-content {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.footer-content img {
-    vertical-align: -15%;
-}
-
-.footer-content a {
-    text-decoration: none;
-}
-
-.footer-content span {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #92dcdc;
-    padding: 20px;
-}
-
-.socials {
-    margin: 2rem 0 0 0;
-}
-
-.socials img {
-    padding-left: 1em;
-    padding-right: 2em;
-}
-
-.socials li {
-    display: flex;
-    justify-content: space-between;
-    float: left;
 }
 
 form {
@@ -380,7 +329,7 @@ textarea {
     margin-bottom: 20px;
 }
 
-input[type=button] {
+input[type=submit] {
     background-color: #1a2236;
     border: none;
     color: white;
@@ -391,6 +340,11 @@ input[type=button] {
     cursor: pointer;
     width: 490px;
     height: 55px;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    /* SET COLOR IN BLACK */
 }
 
 .form_section {
