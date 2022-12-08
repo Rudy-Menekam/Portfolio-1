@@ -39,7 +39,6 @@ body {
 }
 
 h1 {
-  position: absolute;
   width: 220px;
   height: 100px;
   left: 16px;
@@ -53,7 +52,6 @@ h1 {
 }
 
 h2 {
-  position: absolute;
   width: 220px;
   height: 100px;
   left: 16px;
@@ -67,7 +65,6 @@ h2 {
 }
 
 p {
-  position: absolute;
   width: 95%;
   height: 126px;
   left: 16px;
@@ -83,7 +80,7 @@ p {
 
 .button {
   box-sizing: border-box;
-  width: 450px;
+  /* width: 450px; */
   height: 50px;
   left: 16px;
   top: 390px;
@@ -287,7 +284,6 @@ ul {
   position: relative;
   flex-direction: column;
   width: 100%;
-  height: 800px;
 }
 
 .contact-page h2 {
@@ -296,13 +292,14 @@ ul {
 }
 
 .contact_section {
-  background: #f9f9fa;
+  background: #f9f9fa url(./images/image1.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position-x: 0;
+  background-position-y: 0;
   display: flex;
   position: relative;
-}
-
-form {
-  padding: 18px;
+  padding: 60px 24px;
 }
 
 input[type=text],
@@ -339,7 +336,7 @@ input[type=submit] {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-  width: 490px;
+  /* width: 490px; */
   height: 55px;
 }
 
@@ -350,5 +347,5 @@ input[type=submit]:hover {
 .form_section {
   display: flex;
   position: relative;
-  padding-top: 50%;
+  padding: 30px 0;
 }
