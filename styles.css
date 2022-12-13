@@ -7,11 +7,13 @@
 }
 
 body {
+  width: 100%;
   background-image: url("images/image1.png");
   background-repeat: no-repeat;
 }
 
 .navbar {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,9 +41,7 @@ body {
 }
 
 h1 {
-  position: absolute;
-  width: 220px;
-  height: 100px;
+  padding-top: 30%;
   left: 16px;
   top: 104px;
   font-family: 'Playfair Display', serif;
@@ -63,21 +63,22 @@ h2 {
   font-size: 50px;
   line-height: 100%;
   color: #1a2236;
+  padding-top: 20%;
 }
 
 p {
-  position: absolute;
-  width: 90%;
-  height: 126px;
-  left: 16px;
-  top: 224px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
-  letter-spacing: -0.01em;
-  color: #1a2236;
+    position: absolute;
+    width: 90%;
+    height: 126px;
+    left: 16px;
+    top: 224px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #1a2236;
 }
 
 .button {
@@ -85,8 +86,6 @@ p {
   width: 90%;
   height: 50px;
   left: 16px;
-  top: 390px;
-  display: inline-block;
   background: #1a2236;
   position: absolute;
   font-family: 'Poppins', sans-serif;
@@ -112,13 +111,14 @@ p {
 .section {
   display: flex;
   position: relative;
+  padding: 20px;
+  padding-bottom: 32%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  width: auto;
-  height: 65vh;
+  width: 100;
   position: relative;
 }
 
@@ -126,17 +126,20 @@ p {
   display: flex;
   position: relative;
   flex-direction: column;
+  padding-top: 20%;
+}
+
+.works h2 {
+  padding: 20px;
 }
 
 .about {
-  display: flex;
   position: relative;
   padding-bottom: 100%;
 }
 
 .grid-container {
   display: grid;
-  padding-top: 35%;
 }
 
 .btn {
@@ -290,12 +293,16 @@ ul {
 }
 
 .contact-page h2 {
-  padding-top: 10%;
+  padding-top: 30%;
   white-space: nowrap;
 }
 
 .contact_section {
-  background: #f9f9fa;
+  background: #f9f9fa url(./images/image1.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position-x: 0;
+  background-position-y: 0;
   display: flex;
   position: relative;
 }
@@ -400,5 +407,5 @@ input[type=submit]:hover {
   margin-top: 45px;
   display: flex;
   position: relative;
-  padding-top: 50%;
+  padding: 30px 0;
 }
