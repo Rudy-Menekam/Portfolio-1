@@ -53,8 +53,6 @@ h1 {
 }
 
 h2 {
-  position: absolute;
-  height: 100px;
   left: 16px;
   top: 104px;
   font-family: 'Playfair Display', serif;
@@ -67,11 +65,9 @@ h2 {
 }
 
 p {
-  position: absolute;
-  width: 90%;
-  height: 126px;
-  left: 16px;
-  top: 224px;
+  width: 95%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -84,7 +80,6 @@ p {
 .button {
   box-sizing: border-box;
   width: 90%;
-  height: 50px;
   left: 16px;
   background: #1a2236;
   position: absolute;
@@ -135,7 +130,7 @@ p {
 
 .about {
   position: relative;
-  padding-bottom: 100%;
+  padding: 20px;
 }
 
 .grid-container {
@@ -177,7 +172,7 @@ p {
 }
 
 .span_button {
-  line-height: 6.5;
+  line-height: 7.5;
 }
 
 ul {
@@ -208,7 +203,7 @@ ul {
 
 .card_image {
   height: auto;
-  width: 414px;
+  width: 100%;
   vertical-align: middle;
 }
 
@@ -216,7 +211,7 @@ ul {
   display: grid;
   grid-gap: 16px;
   padding: 1rem;
-  padding-top: 20%;
+  padding-top: 45%;
   padding-bottom: 20%;
 }
 
@@ -305,60 +300,7 @@ ul {
   background-position-y: 0;
   display: flex;
   position: relative;
-}
-
-footer {
-  left: 0;
-  height: 150px;
-  position: absolute;
-  width: 100%;
-  background-color: #1a2236;
-  padding-top: 40px;
-}
-
-.footer-content {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-.footer-content img {
-  vertical-align: -15%;
-}
-
-.footer-content a {
-  text-decoration: none;
-}
-
-.footer-content span {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #92dcdc;
-  padding: 20px;
-}
-
-.socials {
-  margin: 2rem 0 0 0;
-}
-
-.socials img {
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
-.socials li {
-  display: flex;
-  justify-content: space-between;
-  float: left;
-}
-
-form {
-  padding: 18px;
+  padding: 60px 24px;
 }
 
 input[type=text],
@@ -404,8 +346,58 @@ input[type=submit]:hover {
 }
 
 .form_section {
-  margin-top: 45px;
   display: flex;
   position: relative;
   padding: 30px 0;
+}
+
+footer {
+  /* bottom: 0; */
+  left: 0;
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  background-color: #1a2236;
+  padding-top: 40px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content img {
+  vertical-align: -15%;
+}
+
+.footer-content a {
+  text-decoration: none;
+}
+
+.footer-content span {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92dcdc;
+  padding: 20px;
+}
+
+.socials {
+  margin: 2rem 0 0 0;
+}
+
+.socials img {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.socials li {
+  display: flex;
+  justify-content: space-between;
+  float: left;
 }
