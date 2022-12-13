@@ -54,7 +54,6 @@ h1 {
 
 h2 {
   position: absolute;
-  width: 220px;
   height: 100px;
   left: 16px;
   top: 104px;
@@ -68,7 +67,7 @@ h2 {
 
 p {
   position: absolute;
-  width: 288px;
+  width: 90%;
   height: 126px;
   left: 16px;
   top: 224px;
@@ -83,7 +82,7 @@ p {
 
 .button {
   box-sizing: border-box;
-  width: 450px;
+  width: 90%;
   height: 50px;
   left: 16px;
   top: 390px;
@@ -132,6 +131,7 @@ p {
 .about {
   display: flex;
   position: relative;
+  padding-bottom: 100%;
 }
 
 .grid-container {
@@ -174,7 +174,7 @@ p {
 }
 
 .span_button {
-  line-height: 8.5;
+  line-height: 6.5;
 }
 
 ul {
@@ -205,7 +205,7 @@ ul {
 
 .card_image {
   height: auto;
-  width: 486px;
+  width: 414px;
   vertical-align: middle;
 }
 
@@ -213,7 +213,7 @@ ul {
   display: grid;
   grid-gap: 16px;
   padding: 1rem;
-  padding-top: 100%;
+  padding-top: 20%;
   padding-bottom: 20%;
 }
 
@@ -287,7 +287,6 @@ ul {
   position: relative;
   flex-direction: column;
   width: 100%;
-  height: 950px;
 }
 
 .contact-page h2 {
@@ -302,10 +301,9 @@ ul {
 }
 
 footer {
-  bottom: 0;
   left: 0;
   height: 150px;
-  position: fixed;
+  position: absolute;
   width: 100%;
   background-color: #1a2236;
   padding-top: 40px;
@@ -343,7 +341,7 @@ footer {
 
 .socials img {
   padding-left: 1em;
-  padding-right: 2em;
+  padding-right: 1em;
 }
 
 .socials li {
@@ -381,7 +379,7 @@ textarea {
   margin-bottom: 20px;
 }
 
-input[type=button] {
+input[type=submit] {
   background-color: #1a2236;
   border: none;
   color: white;
@@ -390,8 +388,12 @@ input[type=button] {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-  width: 490px;
+  width: 99%;
   height: 55px;
+}
+
+input[type=submit]:hover {
+  background-color: black;
 }
 
 .form_section {
