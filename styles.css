@@ -395,6 +395,7 @@ input[type=button] {
 }
 
 .form_section {
+  margin-top: 45px;
   display: flex;
   position: relative;
   padding-top: 50%;
