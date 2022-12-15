@@ -109,7 +109,40 @@ p {
   padding: 20px;
   padding-bottom: 32%;
 }
+#section_title  {
+  animation-name: leftToOnThePlace;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
 
+@keyframes leftToOnThePlace {
+  0% {
+    transform: translateX(-2000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+#section_description  {
+  animation-name: rightToOnthePlace;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes rightToOnthePlace {
+  0% {
+    transform: translateX(2000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
 .container {
   display: flex;
   flex-direction: column;
