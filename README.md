@@ -5,7 +5,7 @@
 
 > This project was done using Html and CSS
 
-**My Portfolio** is a simple HTML and CSS project to showcase my skills
+**My Portfolio** is a simple responsive HTML and CSS project to showcase my skills
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -41,10 +41,10 @@
 
 ## 💻 Key Features <a name="getting-started"></a>
 
-> The key features are the header and headline section
+> The key features are the responsive
 
-- **Header**
-- **Headline**
+- **Web view**
+- **Mobile view**
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -93,10 +93,9 @@ Example command:
 
 ## 💻 Future Features <a name="getting-started"></a>
 
-> The future features are the works and aout me section
+> The future features are to add animation
 
-- [] **Works**
-- [] **About Me**
+- [] **Animation**
 
 
 ## 🤝 Contributing

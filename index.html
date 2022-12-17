@@ -2,137 +2,214 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>My Portfolio</title>
 </head>
 
 <body>
-    <div class="container">
-        <div>
-            <header>
-                <nav class="navbar">
-                    <img class="nav-image" src="images/image1.png" alt="image1">
-                    <div class="hamburger">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
-                </nav>
-            </header>
-        </div>
-        <div class="section">
-            <section>
-                <h1>Rudy<br>Menekam</h1>
-                <p> Hello! I am a software developer and designer! I can help you build a product, feature or website. Taka a look at my works. If you like what you see and have a project you need coded or designed, don’t hesitate and contact me.</p>
+    <header class="container">
+        <nav class="navbar">
+            <img class="nav-image" src="images/image1.png" alt="image1">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="menu_bar">
+                <ul>
+                    <li><a>Hello</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="section">
+        <section id="title_section">
+            <div class="titl-info-wrapper">
+                <h1 id="header-title">Rudy<br>Menekam</h1>
+                <p id="header-description"> Hello! I am a software developer and designer! I can help you build a product, feature or
+                    website. Taka a look at my works. If you like what you see and have a project you need coded or designed, don’t
+                    hesitate and contact me.</p>
                 <a href="" class="button">Start collaboration</a>
-            </section>
+            </div>
+        </section>
+        <div id="title_image">
+            <img width="100%" height="100%" src="./images/Group 2.png" alt="">
         </div>
+    </div>
     </div>
     <div class="section-image">
     </div>
     <section class="works">
-        <h2>Project</h2>
-        <div class="grid-container">
-            <div class="grid-item">
-                <img class="card_image " src="images/6.png ">
-                <div class="card_content ">
-                    <div>
-                        <h3 class="card_title ">Project name goes here</h3>
+        <h2 id="mobile-title">Project</h2>
+        <div class="card_content-web">
+            <div class="item1">
+                <div class="item1-rightpanel">
+                    <h2 id="card-title-web">Project</h2>
+                    <img id="dot-img" height="130px" src="./images/image_dots.png">
+                </div>
+                <div class="item1-leftpanel">
+                    <img class="card_image-web" src="./images/1.png ">
+                    <div class="card-info-web">
+                        <div>
+                            <h3 class="card_title">Project name goes here</h3>
+                        </div>
+                        <ul class="span_button">
+                            <li><span href="" class="btn card_btn1 ">HTML/CSS</span></li>
+                            </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
+                            </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
+                        </ul>
+                        <button type="" class="card_btn"><span>See this project</span>
+                            <img src="images/Union.png" height="12px"></button>
                     </div>
-                    <ul class="span_button">
-                        <li><span href="" class="btn card_btn1 ">HTML/CSS</span></li>
-                        </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
-                        </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
-                    </ul>
-                    <button class="card_btn"><span>See this project</span>
-                        <img src="images/icon.svg" height="12px" ></button>
                 </div>
             </div>
-            <div class="grid-item">
-                <img class="card_image " src="images/2.png ">
-                <div class="card_content ">
+            <div class="item2">
+                <div class="item2-left">
                     <div>
-                        <h3 class="card_title ">Project name goes here</h3>
+                        <img id="item2_img" src="./images/2.png" alt="">
                     </div>
-                    <ul class="span_button">
-                        <li><span href="" class="btn card_btn1 ">HTML/CSS</span></li>
-                        </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
-                        </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
-                    </ul>
-                    <button class="card_btn"><span>See this project</span>
-                        <img src="images/icon.svg" height="12px" ></button>
+                    <div>
+                        <img id="item3_img" src="./images/image-geometry_2.png" alt="">
+                    </div>
+                    <div class="item2-right">
+                        <div class="item2-right-content">
+                            <div>
+                                <h3 class="card_title ">Project name goes...</h3>
+                            </div>
+                            <ul class="span_button">
+                                <li><span href="" class="btn card_btn4 ">HTML/CSS</span></li>
+                                </li> <span href="" class="btn card_btn5 ">Ruby on Rails</span></li>
+                                </li><span href="" class="btn card_btn6 ">+1</span></li>
+                            </ul>
+                            <button type="" class="card_btn"><span>See this project</span>
+                                <img src="images/Union.png" height="12px"></button>
+                        </div>
+                        <img src="./images/4.png" alt="" width="100%" height="50%">
+                    </div>
                 </div>
             </div>
-            <div class="grid-item">
-                <img class="card_image " src="images/3.png ">
-                <div class="card_content ">
+            <div class="item4">
                     <div>
-                        <h3 class="card_title ">Project name goes here</h3>
+                        <img id="img1" src="./images/3.png" alt="">
                     </div>
-                    <ul class="span_button">
-                        <li><span href="" class="btn card_btn1 ">HTML/CSS</span></li>
-                        </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
-                        </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
-                    </ul>
-                    <button class="card_btn"><span>See this project</span>
-                        <img src="images/icon.svg" height="12px" ></button>
-                </div>
+                    <div>
+                        <img id="img2" src="./images/image-geometry_3.png" alt="">
+                    </div>
             </div>
-            <div class="grid-item">
-                <img class="card_image " src="images/4.png ">
-                <div class="card_content ">
-                    <div>
-                        <h3 class="card_title ">Project name goes here</h3>
-                    </div>
-                    <ul class="span_button">
-                        <li><span href="" class="btn card_btn1 ">HTML/CSS</span></li>
-                        </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
-                        </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
-                    </ul>
-                    <button class="card_btn"><span>See this project</span>
-                        <img src="images/icon.svg" height="12px" ></button>
-                </div>
+            <div class="item3">
+                <img src="./images/image-geometry_5.png" alt="" height="124.04px">
+                <img src="./images/image-geometry_4.png" alt="" height="84.71px">
+                <img src="./images/5.png" alt="" height="200px">
             </div>
-            <div class="grid-item">
-                <img class="card_image " src="images/5.png ">
-                <div class="card_content ">
-                    <div>
-                        <h3 class="card_title ">Project name goes here</h3>
-                    </div>
-                    <ul class="span_button">
-                        <li><span href="" class="btn card_btn1 ">HTML/CSS</span></li>
-                        </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
-                        </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
-                    </ul>
-                    <button class="card_btn"><span>See this project</span>
+        </div>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img class="card_image " src="images/6.png ">
+                    <div class="card_content ">
+                        <div>
+                            <h3 class="card_title ">Project name goes here</h3>
+                        </div>
+                        <ul class="span_button">
+                            <li><span href="" class="btn card_btn1 ">HTML/CSS</span></li>
+                            </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
+                            </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
+                        </ul>
+                        <button type="" class="card_btn"><span>See this project</span>
                         <img src="images/icon.svg" height="12px" ></button>
+                    </div>
                 </div>
-            </div>
-            <div class="grid-item">
-                <img class="card_image " src="images/1.png ">
-                <div class="card_content ">
-                    <div>
-                        <h3 class="card_title ">Project name goes here</h3>
-                    </div>
-                    <ul class="span_button">
-                        <li><span href="" class="btn card_btn1 ">HTML/CSS</span></li>
-                        </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
-                        </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
-                    </ul>
-                    <button class="card_btn"><span>See this project</span>
+                <div class="grid-item">
+                    <img class="card_image " src="images/2.png ">
+                    <div class="card_content ">
+                        <div>
+                            <h3 class="card_title ">Project name goes here</h3>
+                        </div>
+                        <ul class="span_button">
+                            <li><span href="" class="btn card_btn1 ">HTML/CSS</span></li>
+                            </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
+                            </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
+                        </ul>
+                        <button type="" class="card_btn"><span>See this project</span>
                         <img src="images/icon.svg" height="12px" ></button>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img class="card_image " src="images/3.png ">
+                    <div class="card_content ">
+                        <div>
+                            <h3 class="card_title ">Project name goes here</h3>
+                        </div>
+                        <ul class="span_button">
+                            <li><span href="" class="btn card_btn1 ">HTML/CSS</span></li>
+                            </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
+                            </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
+                        </ul>
+                        <button type="" class="card_btn"><span>See this project</span>
+                        <img src="images/icon.svg" height="12px" ></button>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img class="card_image " src="images/4.png ">
+                    <div class="card_content ">
+                        <div>
+                            <h3 class="card_title ">Project name goes here</h3>
+                        </div>
+                        <ul class="span_button">
+                            <li><span href="" class="btn card_btn1 ">HTML/CSS</span></li>
+                            </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
+                            </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
+                        </ul>
+                        <button type="" class="card_btn"><span>See this project</span>
+                        <img src="images/icon.svg" height="12px" ></button>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img class="card_image " src="images/5.png ">
+                    <div class="card_content ">
+                        <div>
+                            <h3 class="card_title ">Project name goes here</h3>
+                        </div>
+                        <ul class="span_button">
+                            <li><span href="" class="btn card_btn1 ">HTML/CSS</span></li>
+                            </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
+                            </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
+                        </ul>
+                        <button type="" class="card_btn"><span>See this project</span>
+                        <img src="images/icon.svg" height="12px" ></button>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img class="card_image " src="images/1.png ">
+                    <div class="card_content ">
+                        <div>
+                            <h3 class="card_title ">Project name goes here</h3>
+                        </div>
+                        <ul class="span_button">
+                            <li><span href="" class="btn card_btn1 ">HTML/CSS</span></li>
+                            </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
+                            </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
+                        </ul>
+                        <button type="" class="card_btn"><span>See this project</span>
+                        <img src="images/icon.svg" height="12px" ></button>
+                    </div>
                 </div>
             </div>
     </section>
-    <div class="about">
-        <h2>About</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
-        <a href="" class="button"><span>See this project</span>
-        <img src="images/icon1.svg" height="16px" ></a>
-    </div>
+    
     <section class="skills_section">
+        <div class="about">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
+            <a href="" class="button"><span>See this project</span>
+            <img src="images/icon1.svg" height="16px" ></a>
+        </div>
+        <div class="skills_web">
         <div class="language">
             <h3>Languages</h3>
             <ul>
@@ -162,11 +239,12 @@
                 <li>Terminal</li>
             </ul>
         </div>
+        <div><img id="skills_img" src="images/image_dots_with_teal.svg"></div>
+       </div>
     </section>
     <section class="contact_section">
         <div class="contact-page">
-            <!-- <img src="images/image1.png" height="100px"> -->
-            <div>
+            <div class="text_area">
                 <h2>Get started</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
             </div>
