@@ -43,6 +43,7 @@ body {
   background-color: #101010;
 }
 
+
 /* Navbar Desktop version */
 
 @media screen and (min-width: 768px) {
@@ -121,7 +122,9 @@ p {
   display: none;
 }
 
+
 /* Animation on desktop version of header title and description */
+
 @media screen and (min-width: 768px) {
   #title_image {
     display: flex;
@@ -260,7 +263,9 @@ p {
   display: flex;
 }
 
+
 /* Work section desktop */
+
 @media screen and (min-width: 768px) {
   .works {
     display: flex;
@@ -714,15 +719,8 @@ input[type=submit]:hover {
   }
 }
 
+
 /* Footer */
-footer {
-  bottom: 0;
-  left: 0;
-  height: 150px;
-  width: 100%;
-  background-color: #1a2236;
-  padding-top: 40px;
-}
 
 .footer-content {
   display: flex;
