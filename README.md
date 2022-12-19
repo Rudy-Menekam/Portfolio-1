@@ -5,7 +5,7 @@
 
 > This project was done using Html and CSS
 
-**My Portfolio** is a simple responsive HTML and CSS project to showcase my skills
+**My Portfolio** is a simple responsive HTML and CSS portfolio project to showcase my skills
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -45,6 +45,10 @@
 
 - **Web view**
 - **Mobile view**
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://rudy-menekam.github.io/)
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
