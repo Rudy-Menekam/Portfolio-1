@@ -46,11 +46,6 @@
 - **Web view**
 - **Mobile view**
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://rudy-menekam.github.io/)
-
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > To run the project locally follow the steps below
