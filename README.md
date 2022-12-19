@@ -47,9 +47,9 @@
 - **Mobile view**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+> TClick on the link below to see the live demo
 
 - [Live Demo Link](https://rudy-menekam.github.io/)
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
