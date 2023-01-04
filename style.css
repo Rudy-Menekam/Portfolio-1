@@ -108,10 +108,11 @@ nav ul {
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
-  height: 25.35vh;
-  padding-top: 70%;
+  height: 58.35vh;
+  padding-top: 56%;
   padding-left: 0;
   margin: 0;
+  color: #000;
 }
 
 .mos-0 {
@@ -119,12 +120,12 @@ nav ul {
   max-width: 800px;
   width: 100%;
   margin: auto;
-  margin-top: 35vh;
-  padding-bottom: 10vh;
+  margin-top: 16vh;
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 /* Navbar Desktop version */
@@ -202,7 +203,6 @@ a {
     grid-template-areas:
       "nav nav"
       "hello mosaic";
-    padding-bottom: 85px;
   }
 }
 
@@ -215,6 +215,7 @@ h1 {
   font-size: 50px;
   line-height: 100%;
   color: #1a2236;
+  padding-top: 20%;
 }
 
 h2 {
