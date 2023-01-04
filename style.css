@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 100%;
-}
-
 .navbar {
   width: 100%;
   display: flex;
@@ -24,6 +20,14 @@ body {
   right: 50px;
   margin-left: -8%;
   margin-top: -5%;
+}
+
+body {
+  background-color: #fff;
+  background-image: url(./images/image1.png);
+  background-repeat: no-repeat;
+  margin: 0;
+  background-size: 155px 90px;
 }
 
 .hamburger {
@@ -43,6 +47,86 @@ body {
   background-color: #101010;
 }
 
+/* <!-- Mobile modal nemu --> */
+.burger {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 6% 5% 0 10%;
+}
+
+.burger-element {
+  background-color: #000; /* This color doesn't mach the template example */
+  width: 30px;
+  height: 5px;
+  margin-bottom: 4px;
+}
+
+.burger-container:hover .burger-element {
+  background-color: #1a2236;
+}
+
+.invisible {
+  display: none !important;
+}
+
+nav {
+  position: relative;
+  display: none;
+  background-color: #fff;
+  box-shadow: 0 0.5px 0 #dddfe6;
+}
+
+.js-nav {
+  display: block;
+  background-image: url(./images/image_geometry_menu_1.png);
+  background-repeat: no-repeat;
+  background-size: 300px 120px;
+}
+
+.cross {
+  position: absolute;
+  top: 20px;
+  right: 5%;
+  font-size: 34px;
+  color: #000;
+  transition: 0.3s;
+}
+
+.cross:hover {
+  color: #1a2236;
+}
+
+ul {
+  margin-top: 7.3%;
+  margin-left: 3.47%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  height: 25.35vh;
+  padding-top: 70%;
+  padding-left: 0;
+  margin: 0;
+}
+
+.mos-0 {
+  display: block;
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  margin-top: 35vh;
+  padding-bottom: 10vh;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* Navbar Desktop version */
 
 @media screen and (min-width: 768px) {
@@ -54,6 +138,10 @@ body {
     display: none;
   }
 
+  body {
+    background-image: none;
+  }
+
   .navbar {
     justify-content: center;
     box-shadow: 0 0.5px 0 #dddfe6;
@@ -61,6 +149,13 @@ body {
 
   .menu_bar {
     display: flex;
+  }
+
+  nav ul {
+    flex-direction: row;
+    height: 100px;
+    margin: 0 37.22%;
+    padding: 0;
   }
 
   .menu_bar ul {
@@ -78,6 +173,36 @@ body {
     padding: 3px 3px;
     text-decoration: none;
     color: black;
+  }
+
+  nav {
+    display: block;
+    grid-area: nav;
+  }
+
+  .js-nav {
+    background-image: none;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .cross {
+    display: none !important;
+  }
+
+  .mos-0 {
+    display: none;
+  }
+
+  #hello-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 48.75%;
+    grid-template-areas:
+      "nav nav"
+      "hello mosaic";
+    padding-bottom: 85px;
   }
 }
 
@@ -453,10 +578,6 @@ p {
 
 .span_button {
   line-height: 6.5;
-}
-
-ul {
-  list-style-type: none;
 }
 
 .span_button li {

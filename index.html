@@ -5,11 +5,13 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <script src="index.js"></script>
     <title>My Portfolio</title>
 </head>
 
 <body>
-    <header class="container">
+    <!-- <header class="container">
         <nav class="navbar">
             <img class="nav-image" src="images/image1.png" alt="image1">
             <div class="hamburger">
@@ -26,7 +28,27 @@
                 </ul>
             </div>
         </nav>
-    </header>
+    </header> -->
+    <!-- Mobile modal nemu -->
+    <div id="hello-wrapper">
+        <nav id="menu">
+          <i id="cross" class="fas fa-times cross invisible" onclick="toggleMenu()"></i>
+          <ul>
+            <li><a href="#hello-t" rel="noopener noreferrer" onclick="toggleMenu()">Hello</a></li>
+            <li><a href="#projects-t" rel="noopener noreferrer" onclick="toggleMenu()">Portfolio</a></li>
+            <li><a href="#about-t" rel="noopener noreferrer" onclick="toggleMenu()">About</a></li>
+            <li><a href="#contact-t" rel="noopener noreferrer" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+          <img class="mos-0" src="images/image_geometry_menu_2.svg" alt="image_geometry_menu_2">
+        </nav>
+        <div class="burger">
+          <div id="burger-container" class="burger-container" onclick="toggleMenu()">
+             <div class="burger-element one"></div>
+            <div class="burger-element two"></div>
+            <div class="burger-element three"></div>
+          </div>
+        </div>
+      </div>
 
     <div class="section">
         <section id="title_section">
