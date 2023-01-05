@@ -57,8 +57,8 @@ body {
 
 .burger-element {
   background-color: #000; /* This color doesn't mach the template example */
-  width: 30px;
-  height: 5px;
+  width: 28px;
+  height: 3px;
   margin-bottom: 4px;
 }
 
@@ -78,7 +78,12 @@ nav {
 }
 
 .js-nav {
+  position: fixed;
   display: block;
+  height: 100%;
+  width: 100%;
+  margin-top: -6%;
+  z-index: 1;
   background-image: url(./images/image_geometry_menu_1.png);
   background-repeat: no-repeat;
   background-size: 300px 120px;
@@ -88,7 +93,7 @@ nav {
   position: absolute;
   top: 20px;
   right: 5%;
-  font-size: 34px;
+  font-size: 20px;
   color: #000;
   transition: 0.3s;
 }
@@ -246,6 +251,7 @@ p {
 #title_image {
   display: none;
 }
+
 .fa-times {
   font-size: 28px;
   width: 1em;
