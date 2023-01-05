@@ -246,6 +246,10 @@ p {
 #title_image {
   display: none;
 }
+.fa-times {
+  font-size: 28px;
+  width: 1em;
+}
 
 /* Animation on desktop version of header title and description */
 @media screen and (min-width: 768px) {
