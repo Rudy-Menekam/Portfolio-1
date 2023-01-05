@@ -5,29 +5,33 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <script src="index.js"></script>
     <title>My Portfolio</title>
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar">
-            <img class="nav-image" src="images/image1.png" alt="image1">
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <div class="menu_bar">
-                <ul>
-                    <li><a>Hello</a></li>
-                    <li><a>Portfolio</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Contact</a></li>
-                </ul>
-            </div>
+  <!-- Mobile modal menu -->
+    <div id="hello-wrapper">
+        <nav id="menu">
+          <i id="cross" class="cross invisible" onclick="toggleMenu()"><img src="images/ic_cross.svg" alt="ic_cross"></i>
+          <ul>
+            <li><a href="#title_section" rel="noopener noreferrer" onclick="toggleMenu()">Hello</a></li>
+            <li><a href="#project" rel="noopener noreferrer" onclick="toggleMenu()">Portfolio</a></li>
+            <li><a href="#about" rel="noopener noreferrer" onclick="toggleMenu()">About</a></li>
+            <li><a href="#contact" rel="noopener noreferrer" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+          <img class="mos-0" src="images/image_geometry_menu_2.svg" alt="image_geometry_menu_2">
         </nav>
-    </header>
-
+        <div class="burger">
+          <div id="burger-container" class="burger-container" onclick="toggleMenu()">
+             <div class="burger-element one"></div>
+            <div class="burger-element two"></div>
+            <div class="burger-element three"></div>
+          </div>
+        </div>
+      </div>
+ <!-- Header section -->
     <div class="section">
         <section id="title_section">
             <div class="titl-info-wrapper">
@@ -45,7 +49,7 @@
     </div>
     <div class="section-image">
     </div>
-    <section class="works">
+    <section class="works" id="project">
         <h2 id="mobile-title">Project</h2>
         <div class="card_content-web">
             <div class="item1">
@@ -203,7 +207,7 @@
     </section>
     
     <section class="skills_section">
-        <div class="about">
+        <div class="about" id="about">
             <h2>About</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
             <a href="" class="button"><span>See this project</span>
@@ -243,7 +247,7 @@
        </div>
     </section>
     <section class="contact_section">
-        <div class="contact-page">
+        <div class="contact-page" id="contact">
             <div class="text_area">
                 <h2>Get started</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>

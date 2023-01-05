@@ -95,6 +95,13 @@ Example command:
 - Twitter: [@twitterhandle](https://twitter.com/MenekamR)
 - LinkedIn: [linkedIn](https://www.linkedin.com/in/menekam-rudy/)
 
+👤 *Author2*
+
+- GitHub: [@amazinggacee](https://github.com/Amazinggracee)
+- Twitter: [@amazinggaceu](https://twitter.com/amazinggraceu)
+- LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa-070643183)
+
+
 ## 💻 Future Features <a name="getting-started"></a>
 
 > The future features are to add animation
