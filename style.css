@@ -799,6 +799,21 @@ input[type=submit]:hover {
   background-color: black;
 }
 
+.error {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(216, 0, 12, 1);
+  background-color: rgb(210, 148, 148);
+  text-align: center;
+  padding: 4px 12px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  display: none;
+}
+
 .form_section {
   display: flex;
   position: relative;
