@@ -14,7 +14,7 @@ const card1 = {
     'https://github.com/Rudy-Menekam',
     'https://rudy-menekam.github.io/',
   ],
-  image: './images/Group 109.png',
+  image: './images/6.png',
 
 };
 const card2 = {
@@ -29,7 +29,7 @@ const card2 = {
     'https://github.com/Rudy-Menekam',
     'https://rudy-menekam.github.io/',
   ],
-  image: './images/2.png',
+  image: './images/Group 109.png',
 
 };
 const card3 = {
@@ -89,7 +89,7 @@ const card6 = {
     'https://github.com/Rudy-Menekam',
     'https://rudy-menekam.github.io/',
   ],
-  image: './images/6.png',
+  image: './images/1.png',
 };
 
 const projectData = [card1, card2, card3, card4, card5, card6];
