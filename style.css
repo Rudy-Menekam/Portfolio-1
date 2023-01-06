@@ -236,7 +236,6 @@ h2 {
 }
 
 p {
-  width: 95%;
   padding-top: 10%;
   padding-bottom: 10%;
   font-family: 'Poppins', sans-serif;
@@ -918,6 +917,7 @@ footer {
   width: 100%;
   height: 100vh;
   z-index: 99;
+  overflow: scroll;
 }
 
 .card h3 {
@@ -978,6 +978,10 @@ footer {
 #card-description {
   max-width: 700px;
   margin: 0 6.25%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1a2236;
 }
 
 .button-container {
@@ -991,7 +995,7 @@ footer {
 .card-button {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background: #fff;
   color: #1a2236;
@@ -1004,6 +1008,7 @@ footer {
   height: 51px;
   margin-bottom: 30px;
   transition: 0.3s;
+  padding: 3%;
 }
 
 .card-button:hover {
@@ -1073,9 +1078,9 @@ footer {
     max-width: none;
   }
 
-  #card-description{
+  #card-description {
     align-self: center;
-    margin-top: 70px;
+    margin-top: -10%;
   }
 
   .button-container {

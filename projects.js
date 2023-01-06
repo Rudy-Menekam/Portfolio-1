@@ -1,86 +1,99 @@
 /** *******************************************
 * Pr0ject section JS implementation
 ********************************************* */
-const projectData = [
-  {
-    id: 1,
-    title: 'Project name goes here',
-    technologies: [
-      'HTML/CSS',
-      'Ruby on Rails',
-      'JavaScript',
-    ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: './images/1.png',
-    sourceLink: 'https://github.com/Rudy-Menekam',
-    liveLink: 'https://rudy-menekam.github.io/',
-  },
-  {
-    id: 2,
-    title: 'Project name goes here',
-    technologies: [
-      'HTML/CSS',
-      'Ruby on Rails',
-      'JavaScript',
-    ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: './images/2.png',
-    sourceLink: 'https://github.com/Rudy-Menekam',
-    liveLink: 'https://rudy-menekam.github.io/',
-  },
-  {
-    id: 3,
-    title: 'Project name goes here',
-    technologies: [
-      'HTML/CSS',
-      'Ruby on Rails',
-      'JavaScript',
-    ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: './images/3.png',
-    sourceLink: 'https://github.com/Rudy-Menekam',
-    liveLink: 'https://rudy-menekam.github.io/',
-  },
-  {
-    id: 4,
-    title: 'Project name goes here',
-    technologies: [
-      'HTML/CSS',
-      'Ruby on Rails',
-      'JavaScript',
-    ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: './images/4.png',
-    sourceLink: 'https://github.com/Rudy-Menekam',
-    liveLink: 'https://rudy-menekam.github.io/',
-  },
-  {
-    id: 5,
-    title: 'Project name goes here',
-    technologies: [
-      'HTML/CSS',
-      'Ruby on Rails',
-      'JavaScript',
-    ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: './images/5.png',
-    sourceLink: 'https://github.com/Rudy-Menekam',
-    liveLink: 'https://rudy-menekam.github.io/',
-  },
-  {
-    id: 6,
-    title: 'Project name goes here',
-    technologies: [
-      'HTML/CSS',
-      'Ruby on Rails',
-      'JavaScript',
-    ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    image: './images/6.png',
-    sourceLink: 'https://github.com/Rudy-Menekam',
-    liveLink: 'https://rudy-menekam.github.io/',
-  },
-];
+
+const card1 = {
+  title: 'Project name goes here',
+  technologies: [
+    'HTML/CSS',
+    'Ruby on Rails',
+    'JavaScript',
+  ],
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  link: [
+    'https://github.com/Rudy-Menekam',
+    'https://rudy-menekam.github.io/',
+  ],
+  image: './images/Group 109.png',
+
+};
+const card2 = {
+  title: 'Project name goes here',
+  technologies: [
+    'HTML/CSS',
+    'Ruby on Rails',
+    'JavaScript',
+  ],
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  link: [
+    'https://github.com/Rudy-Menekam',
+    'https://rudy-menekam.github.io/',
+  ],
+  image: './images/2.png',
+
+};
+const card3 = {
+  title: 'Project name goes here',
+  technologies: [
+    'HTML/CSS',
+    'Ruby on Rails',
+    'JavaScript',
+  ],
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  link: [
+    'https://github.com/Rudy-Menekam',
+    'https://rudy-menekam.github.io/',
+  ],
+  image: './images/3.png',
+
+};
+const card4 = {
+  title: 'Project name goes here',
+  technologies: [
+    'HTML/CSS',
+    'Ruby on Rails',
+    'JavaScript',
+  ],
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  link: [
+    'https://github.com/Rudy-Menekam',
+    'https://rudy-menekam.github.io/',
+  ],
+  image: './images/4.png',
+
+};
+const card5 = {
+  title: 'Project name goes here',
+  technologies: [
+    'HTML/CSS',
+    'Ruby on Rails',
+    'JavaScript',
+  ],
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  link: [
+    'https://github.com/Rudy-Menekam',
+    'https://rudy-menekam.github.io/',
+  ],
+  image: './images/5.png',
+
+};
+const card6 = {
+  title: 'Project name goes here',
+  technologies: [
+    'HTML/CSS',
+    'Ruby on Rails',
+    'JavaScript',
+  ],
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  link: [
+    'https://github.com/Rudy-Menekam',
+    'https://rudy-menekam.github.io/',
+  ],
+  image: './images/6.png',
+};
+
+const projectData = [card1, card2, card3, card4, card5, card6];
+
 function modal(number) {
   const card = document.querySelector('#card');
   card.classList.toggle('invisible');
