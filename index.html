@@ -68,8 +68,8 @@
                             </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
                             </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
                         </ul>
-                        <button type="" class="card_btn"><span>See this project</span>
-                            <img src="images/Union.png" height="12px"></button>
+                        <a href="#portfolio" rel="noopener noreferrer" onclick="modal(1)"><button type="" class="card_btn"><span>See this project</span>
+                            <img src="images/Union.png" height="12px"></button></a>
                     </div>
                 </div>
             </div>
@@ -91,8 +91,8 @@
                                 </li> <span href="" class="btn card_btn5 ">Ruby on Rails</span></li>
                                 </li><span href="" class="btn card_btn6 ">+1</span></li>
                             </ul>
-                            <button type="" class="card_btn"><span>See this project</span>
-                                <img src="images/Union.png" height="12px"></button>
+                            <a href="#portfolio" rel="noopener noreferrer" onclick="modal(2)"><button type="" class="card_btn"><span>See this project</span>
+                                <img src="images/Union.png" height="12px"></button></a>
                         </div>
                         <img src="./images/4.png" alt="" width="100%" height="50%">
                     </div>
@@ -124,8 +124,8 @@
                             </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
                             </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
                         </ul>
-                        <button type="" class="card_btn"><span>See this project</span>
-                        <img src="images/icon.svg" height="12px" ></button>
+                        <a href="#portfolio" rel="noopener noreferrer" onclick="modal(1)"><button type="" class="card_btn"><span>See this project</span>
+                            <img src="images/icon.svg" height="12px"></button></a>
                     </div>
                 </div>
                 <div class="grid-item">
@@ -139,8 +139,8 @@
                             </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
                             </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
                         </ul>
-                        <button type="" class="card_btn"><span>See this project</span>
-                        <img src="images/icon.svg" height="12px" ></button>
+                        <a href="#portfolio" rel="noopener noreferrer" onclick="modal(2)"><button type="" class="card_btn"><span>See this project</span>
+                            <img src="images/icon.svg" height="12px"></button></a>
                     </div>
                 </div>
                 <div class="grid-item">
@@ -154,8 +154,8 @@
                             </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
                             </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
                         </ul>
-                        <button type="" class="card_btn"><span>See this project</span>
-                        <img src="images/icon.svg" height="12px" ></button>
+                        <a href="#portfolio" rel="noopener noreferrer" onclick="modal(3)"><button type="" class="card_btn"><span>See this project</span>
+                            <img src="images/icon.svg" height="12px"></button></a>
                     </div>
                 </div>
                 <div class="grid-item">
@@ -169,8 +169,8 @@
                             </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
                             </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
                         </ul>
-                        <button type="" class="card_btn"><span>See this project</span>
-                        <img src="images/icon.svg" height="12px" ></button>
+                        <a href="#portfolio" rel="noopener noreferrer" onclick="modal(4)"><button type="" class="card_btn"><span>See this project</span>
+                            <img src="images/icon.svg" height="12px"></button></a>
                     </div>
                 </div>
                 <div class="grid-item">
@@ -184,8 +184,8 @@
                             </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
                             </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
                         </ul>
-                        <button type="" class="card_btn"><span>See this project</span>
-                        <img src="images/icon.svg" height="12px" ></button>
+                        <a href="#portfolio" rel="noopener noreferrer" onclick="modal(5)"><button type="" class="card_btn"><span>See this project</span>
+                            <img src="images/icon.svg" height="12px"></button></a>
                     </div>
                 </div>
                 <div class="grid-item">
@@ -199,8 +199,8 @@
                             </li> <span href="" class="btn card_btn2 ">Ruby on Rails</span></li>
                             </li><span href="" class="btn card_btn3 ">JavaScript</span></li>
                         </ul>
-                        <button type="" class="card_btn"><span>See this project</span>
-                        <img src="images/icon.svg" height="12px" ></button>
+                        <a href="#portfolio" rel="" onclick="modal(6)"><button type="" class="card_btn"><span>See this project</span>
+                            <img src="images/icon.svg" height="12px"></button></a>
                     </div>
                 </div>
             </div>
@@ -293,6 +293,28 @@
             </ul>
         </div>
     </footer>
+    <article id="card" class="card-container invisible">
+        <div class="card">
+           <i id="card-cross" class="card-cross" onclick="toggle()"><img src="images/ic_cross.svg" alt="ic_cross"></i>
+          <h3 id="card-title">See Project header</h3>
+          <ul id="card-list" class="card-list">
+          </ul>
+          <img src="./images/Group 109.png" class="card-image" alt="project screenshot">
+          <p id="card-description"></p>
+          <div class="button-container">
+            <button type="button" id="card-button-live" class="card-button">
+              See live
+              <i class="fas fa-external-link-alt"></i>
+            </button>
+            <button type="button" id="card-button-source" class="card-button">
+              See source
+              <i class="fab fa-github"></i>
+          </button>
+          </div>
+        </div>
+      </article>
+
+    <script src="projects.js"></script>
 </body>
 
 </html>
