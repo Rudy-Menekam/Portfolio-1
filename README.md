@@ -101,6 +101,10 @@ Example command:
 - Twitter: [@amazinggaceu](https://twitter.com/amazinggraceu)
 - LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa-070643183)
 
+👤 *Author3*
+
+- GitHub: [@Bigizi](https://github.com/Bigizi)
+- LinkedIn: [@Bigizi](https://www.linkedin.com/in/bigizi-nduwayo-crispin-74b534227/)
 
 ## 💻 Future Features <a name="getting-started"></a>
 
