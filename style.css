@@ -806,7 +806,7 @@ input[type=submit]:hover {
   font-size: 16px;
   line-height: 20px;
   color: rgba(216, 0, 12, 1);
-  background-color: rgba(255, 186, 186, 1);
+  background-color: rgb(210, 148, 148);
   text-align: center;
   padding: 4px 12px;
   margin-bottom: 12px;
