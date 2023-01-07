@@ -4,7 +4,7 @@ const contactForm = document.querySelector('#contact-form');
 
 // Validate if email is lowercase
 const validateEmail = (email) => {
-  if (/[A-Z]/.test(email)) {
+  if (/[a-z]/.test(email)) {
     return false;
   }
   return true;
