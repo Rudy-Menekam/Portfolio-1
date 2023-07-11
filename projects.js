@@ -14,22 +14,22 @@ const card1 = {
     'https://github.com/Rudy-Menekam',
     'https://rudy-menekam.github.io/',
   ],
-  image: './images/6.png',
+  image: './images/vespa.png',
 
 };
 const card2 = {
-  title: 'Project name goes here',
+  title: 'Vespa Booking App',
   technologies: [
-    'HTML/CSS',
+    'Ruby',
     'Ruby on Rails',
-    'JavaScript',
+    'React',
   ],
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  description: 'This project is designed for the reservation of fancy vespas. If you are preparing for a special day or event and you want a cool Vespa for it, this website is the best place for you. If you have a luxurious Vespa and want to make some extra money from it, you can add it to our website and others will be able to reserve it!.',
   link: [
-    'https://github.com/Rudy-Menekam',
-    'https://rudy-menekam.github.io/',
+    'https://vespa-rentals-msq2.onrender.com/',
+    'https://github.com/Rudy-Menekam/Rentals-project-frontend',
   ],
-  image: './images/Group 109.png',
+  image: './images/vespa.png',
 
 };
 const card3 = {
@@ -89,7 +89,7 @@ const card6 = {
     'https://github.com/Rudy-Menekam',
     'https://rudy-menekam.github.io/',
   ],
-  image: './images/1.png',
+  image: './images/vespa.png',
 };
 
 const projectData = [card1, card2, card3, card4, card5, card6];
