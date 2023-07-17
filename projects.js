@@ -33,16 +33,16 @@ const card2 = {
 
 };
 const card3 = {
-  title: 'Project name goes here',
+  title: 'Budget App',
   technologies: [
     'HTML/CSS',
-    'Ruby on Rails',
+    'Ruby',
     'JavaScript',
   ],
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  description: 'Budget-App is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
   link: [
-    'https://github.com/Rudy-Menekam',
-    'https://rudy-menekam.github.io/',
+    'https://budget-app-faad.onrender.com/',
+    'https://github.com/Rudy-Menekam/Budget-app',
   ],
   image: './images/3.png',
 
