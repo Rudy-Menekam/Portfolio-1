@@ -37,7 +37,6 @@ const card3 = {
   technologies: [
     'HTML/CSS',
     'Ruby',
-    'JavaScript',
   ],
   description: 'Budget-App is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
   link: [
@@ -48,48 +47,47 @@ const card3 = {
 
 };
 const card4 = {
-  title: 'Project name goes here',
+  title: 'Space Traveler Hub',
   technologies: [
     'HTML/CSS',
-    'Ruby on Rails',
+    'React & redux',
     'JavaScript',
   ],
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  description: 'A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. Real live data is obtained from the SpaceX API.',
   link: [
-    'https://github.com/Rudy-Menekam',
-    'https://rudy-menekam.github.io/',
+    'https://github.com/Rudy-Menekam/space-travelers-hub',
+    'https://github.com/Rudy-Menekam/space-travelers-hub',
   ],
-  image: './images/4.png',
+  image: './images/2x.png',
 
 };
 const card5 = {
-  title: 'Project name goes here',
+  title: 'covid-19-stats',
   technologies: [
     'HTML/CSS',
-    'Ruby on Rails',
+    'React and Redux',
     'JavaScript',
   ],
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  description: 'A Covid-19 statistics app is a mobile responsive application designed to provide up-to-date information on the number of confirmed cases, deaths, and recoveries from the Covid-19 pandemic from different countries around the world. The app can help users track the current situation of the pandemic in their country',
   link: [
-    'https://github.com/Rudy-Menekam',
-    'https://rudy-menekam.github.io/',
+    'https://world-covid19stats.netlify.app/',
+    'hhttps://github.com/Rudy-Menekam/covid-19-stats',
   ],
-  image: './images/5.png',
+  image: './images/@2x.png',
 
 };
 const card6 = {
-  title: 'Project name goes here',
+  title: 'Developers Community',
   technologies: [
     'HTML/CSS',
-    'Ruby on Rails',
     'JavaScript',
   ],
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+  description: 'A community website that talks about various activities that regroups developers in the community',
   link: [
-    'https://github.com/Rudy-Menekam',
-    'https://rudy-menekam.github.io/',
+    'https://rudy-menekam.github.io/developers-community/',
+    'https://github.com/Rudy-Menekam/developers-community',
   ],
-  image: './images/vespa.png',
+  image: './images/coffee.png',
 };
 
 const projectData = [card1, card2, card3, card4, card5, card6];
