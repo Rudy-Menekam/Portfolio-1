@@ -314,6 +314,7 @@ p {
   text-decoration: none;
   padding: 15px 32px;
   margin: 4px 2px;
+  cursor: pointer;
 }
 
 .section-image {
@@ -347,7 +348,7 @@ p {
   #title_section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
   }
 
