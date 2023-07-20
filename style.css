@@ -492,6 +492,128 @@ p {
     padding: 5%;
   }
 
+  .project-2 .works-box {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    max-width: none;
+  }
+
+  .works-box {
+    width: 100%;
+    position: absolute;
+    background-color: rgb(26, 34, 54);
+    padding: 5%;
+  }
+
+  .works_box {
+    background-color: #1a2236;
+    color: #fff;
+    width: 50%;
+    padding: 5%;
+  }
+
+  .works-box {
+    background-color: #1a2236f5;
+  }
+
+  .works-box:hover {
+    display: block;
+  }
+
+  #item2_img:hover ~ .works-box {
+    display: block;
+  }
+
+  #img1:hover ~ .works-box {
+    display: block;
+  }
+
+  #img4_p:hover ~ .works_box{
+    display: block;
+  }
+
+  .project-2 {
+    display: flex;
+    position: relative;
+    max-width: none;
+    width: 100%;
+    height: 70%;
+  }
+
+  #item3_img {
+    display: flex;
+    position: relative;
+    max-width: none;
+    width: 100%;
+    height: 70%;
+  }
+
+  .project-2 .works-box:hover {
+    display: block;
+  }
+
+  .project-3 .works-box {
+    position: absolute;
+    display: none;
+    bottom: 0;
+    max-width: none;
+  }
+
+  .project-3 {
+    position: relative;
+    display: flex;
+    max-width: none;
+    width: 82.05%;
+  }
+
+  .project-3 img {
+    max-width: none;
+    width: 24px;
+  }
+
+  .project-3 .works-box:hover {
+    display: block;
+  }
+
+  .project-4 .works_box {
+    position: absolute;
+    display: none;
+    bottom: 0;
+    max-width: none;
+  }
+
+  .project-4 {
+    position: relative;
+    display: flex;
+    max-width: none;
+  }
+
+  .project-4 #img4_p {
+    max-width: none;
+    width: 50%;
+  }
+
+  .project-4 .works_box:hover {
+    display: block;
+  }
+
+  .works-box h3 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 80%;
+    margin: 6.25% 2 5% 6.25%;
+  }
+
+  .item3-right-content {
+    width: 100%;
+    height: 50%;
+    background-color: #1a2236;
+    padding: 5%;
+  }
+
   .item2-right-content h3 {
     font-size: 20px;
     font-weight: 700;
@@ -499,15 +621,12 @@ p {
   }
 
   #item2_img {
-    width: 100%;
-    height: 241px;
-    margin-top: 15%;
+    display: block;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
   }
 
-  #item3_img {
-    width: 100%;
-    height: 312px;
-  }
 
   .item2-right-content .span_button {
     line-height: 5.5;
