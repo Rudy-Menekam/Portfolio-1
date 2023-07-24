@@ -52,7 +52,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin: 6% 5% 0 10%;
+  margin: 6% 5% 0 88%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 
 .burger-element {
@@ -71,10 +76,13 @@ body {
 }
 
 nav {
-  position: relative;
+  /* position: relative; */
   display: none;
   background-color: #fff;
   box-shadow: 0 0.5px 0 #dddfe6;
+  position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .js-nav {
@@ -184,6 +192,10 @@ a {
   nav {
     display: block;
     grid-area: nav;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
   }
 
   .js-nav {
@@ -220,7 +232,7 @@ h1 {
   font-size: 50px;
   line-height: 100%;
   color: #1a2236;
-  padding-top: 20%;
+  padding-top: 34%;
 }
 
 h2 {
@@ -339,6 +351,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0;
+    padding-top: 6%
   }
 
   .section-image {
