@@ -49,7 +49,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 > Click on the link below to see the live demo
 
-- [Live Demo Link](https://rudy-menekam.github.io/)
+- [Live Demo Link](https://rudy-menekam.github.io/Portfolio-1/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -71,7 +71,7 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
-  git clone https://github.com/Rudy-Menekam/Module-1---Hello-Microverse.git
+  git clone https://github.com/Rudy-Menekam/Portfolio-1.git
 ```
 -
 
@@ -117,7 +117,7 @@ Example command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]([../../issues/](https://github.com/Rudy-Menekam/Module-1---My-Portfolio)).
+Feel free to check the [issues page]([../../issues/](https://github.com/Rudy-Menekam/Portfolio-1/issues)).
 
  ## Show your support
 

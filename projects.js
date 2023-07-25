@@ -71,7 +71,7 @@ const card5 = {
   description: 'A Covid-19 statistics app is a mobile responsive application designed to provide up-to-date information on the number of confirmed cases, deaths, and recoveries from the Covid-19 pandemic from different countries around the world. The app can help users track the current situation of the pandemic in their country',
   link: [
     'https://world-covid19stats.netlify.app/',
-    'hhttps://github.com/Rudy-Menekam/covid-19-stats',
+    'https://github.com/Rudy-Menekam/covid-19-stats',
   ],
   image: './images/@2x.png',
 
