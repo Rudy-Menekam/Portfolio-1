@@ -347,7 +347,7 @@ p {
 @media screen and (min-width: 768px) {
   .section {
     width: 100%;
-    height: calc(80vh - 76px);
+    /* height: calc(80vh - 76px); */
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0;
@@ -1174,6 +1174,16 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+  .res {
+    width: 200px;
+    height: 48px;
+    background-color: #ff6b00;
+    color: #fff;
+    border: none;
+    /* width: 369px; */
+    font-family: "Inter", sans-serif;
+  }
+
   footer {
     position: none;
     height: 123px;

@@ -24,7 +24,7 @@ const card2 = {
     'Ruby on Rails',
     'React',
   ],
-  description: 'This project is designed for the reservation of fancy vespas. If you are preparing for a special day or event and you want a cool Vespa for it, this website is the best place for you. If you have a luxurious Vespa and want to make some extra money from it, you can add it to our website and others will be able to reserve it!.',
+  description: 'This project is designed for the reservation of fancy vespas. If you are preparing for a special day or event and you want a cool Vespa for it, this website is the best place for you. If you have a luxurious Vespa and want to make some extra money from it, you can add it to our website and others will be able to reserve it.',
   link: [
     'https://vespa-rentals-msq2.onrender.com/',
     'https://github.com/Rudy-Menekam/Rentals-project-frontend',
@@ -38,7 +38,7 @@ const card3 = {
     'HTML/CSS',
     'Ruby',
   ],
-  description: 'Budget-App is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+  description: 'Budget-App is a mobile web application where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you spent and on what.',
   link: [
     'https://budget-app-faad.onrender.com/',
     'https://github.com/Rudy-Menekam/Budget-app',
@@ -68,7 +68,7 @@ const card5 = {
     'React and Redux',
     'JavaScript',
   ],
-  description: 'A Covid-19 statistics app is a mobile responsive application designed to provide up-to-date information on the number of confirmed cases, deaths, and recoveries from the Covid-19 pandemic from different countries around the world. The app can help users track the current situation of the pandemic in their country',
+  description: 'A Covid-19 statistics app is a mobile responsive application designed to provide up-to-date information on the number of confirmed cases, deaths, and recoveries from the Covid-19 pandemic from different countries around the world. The app can help users track the current situation of the pandemic in their country.',
   link: [
     'https://world-covid19stats.netlify.app/',
     'https://github.com/Rudy-Menekam/covid-19-stats',
@@ -82,7 +82,7 @@ const card6 = {
     'HTML/CSS',
     'JavaScript',
   ],
-  description: 'A community website that talks about various activities that regroups developers in the community',
+  description: 'A community website that talks about various activities that regroups developers in the community. It showcases various events, hackathons, bootcamps and scholarships to community members who want to improve or build their skills in tech.',
   link: [
     'https://rudy-menekam.github.io/developers-community/',
     'https://github.com/Rudy-Menekam/developers-community',
